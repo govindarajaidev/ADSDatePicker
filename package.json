@@ -1,0 +1,67 @@
+{
+  "name": "ads-date-picker",
+  "version": "0.1.0",
+  "description": "A customizable React date picker component with segmented period selection",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "build:lib": "rollup -c",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "prepublishOnly": "npm run build:lib"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^6.0.0",
+    "antd": "^5.27.1",
+    "dayjs": "^1.11.13",
+    "immer": "^10.1.1",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "use-immer": "^0.11.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.33.0",
+    "@rollup/plugin-commonjs": "^25.0.0",
+    "@rollup/plugin-node-resolve": "^15.2.0",
+    "@rollup/plugin-terser": "^0.4.0",
+    "@types/react": "^19.1.10",
+    "@types/react-dom": "^19.1.7",
+    "@vitejs/plugin-react": "^5.0.0",
+    "eslint": "^9.33.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "globals": "^16.3.0",
+    "rollup": "^3.29.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-typescript2": "^0.35.0",
+    "typescript": "~5.8.3",
+    "typescript-eslint": "^8.39.1",
+    "vite": "^7.1.2"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0",
+    "antd": ">=5.0.0"
+  },
+  "keywords": [
+    "react",
+    "date-picker",
+    "antd",
+    "calendar",
+    "typescript"
+  ],
+  "author": "govindarajaidev",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/govindarajaidev/ADSDatePicker.git"
+  }
+}

@@ -1,0 +1,131 @@
+.ant-segmented .ant-segmented-item {
+  border-radius: 4px !important;
+}
+
+/* Target the small segmented component's labels specifically */
+.ant-segmented.ant-segmented-sm .ant-segmented-item-label {
+  padding: 8px 12px !important;
+  /* Adjusted top padding to 5px as requested */
+  min-height: 20px !important;
+  line-height: 1.2 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.ant-picker-dropdown .ant-picker-panel-container {
+  border: 1px solid #d9d9d9 !important;
+}
+
+/* Hide the Today button and footer completely */
+.ant-picker-footer,
+.ant-picker-today-btn {
+  display: none !important;
+}
+
+/* Hide any other potential footer elements */
+.ant-picker-ranges,
+.ant-picker-now,
+.ant-picker-ok {
+  display: none !important;
+}
+
+/* Calendar picker wrapper for positioning */
+.calendar-picker-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+/* Style the calendar icon button */
+.calendar-icon-button {
+  color: #424242 !important;
+  font-size: 18px;
+  padding: 4px;
+  cursor: pointer;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.calendar-icon-button:hover {
+  color: #424242 !important;
+  background: #f0f0f0 !important;
+}
+
+/* Hide the DatePicker input completely */
+.calendar-picker-wrapper .ant-picker {
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+/* Make the popup always appear near the icon */
+.calendar-popup {
+  position: fixed !important;
+}
+
+.calendar-icon-button:hover {
+  color: #424242 !important;
+  background: #f0f0f0 !important;
+}
+
+/* Hide the DatePicker input completely */
+.calendar-picker-wrapper .ant-picker {
+  position: absolute;
+  top: 15;
+  left: 10;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+/* Make the popup always appear near the icon */
+.calendar-popup {
+  position: fixed !important;
+}
+
+/* Calendar picker container styles */
+.calendar-picker-container {
+  padding: 1px;
+  min-width: 280px;
+  width: 100%;
+}
+
+.ant-picker-dropdown .ant-picker-cell {
+  padding: 2px !important;
+}
+
+.ant-picker-dropdown .ant-picker-month-panel .ant-picker-content {
+  height: 200px !important;
+}
+
+.ant-picker-dropdown .ant-picker-year-panel .ant-picker-content {
+  height: 200px !important;
+}
+
+.ant-picker-dropdown .ant-picker-date-panel .ant-picker-body {
+  padding: 8px 12px;
+}
+
+:where(.css-dev-only-do-not-override-odinc).ant-picker-dropdown .ant-picker-cell-in-view.ant-picker-cell-selected:not(.ant-picker-cell-disabled) .ant-picker-cell-inner,
+:where(.css-dev-only-do-not-override-odinc).ant-picker-dropdown .ant-picker-cell-in-view.ant-picker-cell-range-start:not(.ant-picker-cell-disabled) .ant-picker-cell-inner,
+:where(.css-dev-only-do-not-override-odinc).ant-picker-dropdown .ant-picker-cell-in-view.ant-picker-cell-range-end:not(.ant-picker-cell-disabled) .ant-picker-cell-inner{
+  color: black !important;
+}
+
+/*
+:where(.css-dev-only-do-not-override-bvuoau).ant-picker-dropdown .ant-picker-week-panel-row-range-start td.ant-picker-cell:before,
+:where(.css-dev-only-do-not-override-bvuoau).ant-picker-dropdown .ant-picker-week-panel-row-range-end td.ant-picker-cell:before,
+:where(.css-dev-only-do-not-override-bvuoau).ant-picker-dropdown .ant-picker-week-panel-row-selected td.ant-picker-cell:before,
+:where(.css-dev-only-do-not-override-bvuoau).ant-picker-dropdown .ant-picker-week-panel-row-hover td.ant-picker-cell:before{
+  background: #424242 !important;
+  color: black;
+} 
+*/
